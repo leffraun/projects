@@ -1,0 +1,342 @@
+.heading{
+   width:100%;
+   height:80px;
+   margin-top:0;
+   border-top:none;
+   position:relative;
+    background-color:#3c4c24;
+	border-radius:10px;
+   
+}
+.fixed-div{
+		position:fixed;
+		 width:100%;
+   height:80px;
+   z-index:1000;
+   top:0;
+   left:0;
+   background-color: #3c4c24;
+	}
+body{
+	background-color:burlywood;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-font {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* Home link */
+.home:link {
+    text-decoration: none;
+    color: #ffffff; /* Ensure the color is white */
+    font-size: 25px;
+    font-family: 'Shadows Into Light';
+}
+
+/* About link */
+.about:link {
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 25px;
+    color: #ffffff; /* Ensure the color is white */
+    font-family: 'Shadows Into Light';
+}
+.about:visited, .home:visited{
+	color:black;
+}
+
+	.home:hover{
+		text-decoration:none;
+		background-color:#ffea5e;
+		color:green;
+		border-radius:2px;
+		font-size:30px;
+	}
+	.about:link{
+		text-decoration:none;
+		border-radius:3px;
+		font-size:25px;
+		color:#FFFFFF;
+		font-family:'Shadows Into Light';
+	}
+	
+	.about:hover{
+		text-decoration:none;
+		background-color:#ffea5e;
+		color:green;
+		border-radius:2px;
+		font-size:30px;
+	}
+	
+	.home{
+		position:absolute;
+		bottom:2px;
+		left:10px;
+	}
+	.about{
+		position:absolute;
+		bottom:2px;
+		right:20px;
+		
+	}
+	.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+	.h1{
+		font-family:'Dancing Script';
+		color:white;
+		font-size:30px;
+		
+	}
+	#section2{
+		/*background-image:url(https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D.jpg);*/
+	background-image: url("dan-gold-4_jhDO54BYg-unsplash.jpg");
+		width: 100vw; height: 200vh; background-size: cover;
+		/* Ensures the image covers the container */ background-position: center;
+		/* Centers the image */
+		background-repeat: no-repeat;
+		/* Prevents the image from repeating */
+		margin:0;
+		display:flex;
+	align-items:center;
+	justify-content:center;
+	opacity:0.7;
+	position:relative;	
+	display:flex;
+	}
+
+	
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.part1{
+	opacity:0.8;
+	width:600px;
+	height:150px;
+	margin-top:-550px;
+	background-color:black;
+	position:absolute;
+	padding:4px;
+	
+	/*display:flex;
+	align-items:top;
+	justify-content:top;*/
+}
+.one{
+	color:white;
+	text-align:center;
+	font-family:"Playwrite AU SA";
+	
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-au-sa-font {
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.text{
+	color:white;
+	
+}
+.footer{
+position:absolute;
+bottom:0;
+left:0;	
+	opacity:1;
+	color:white;
+}
+.container{
+	display:flex;
+	margin-top:400px;
+	opacity:0.8;
+}
+.div1{
+	transform: translateY(-100px);
+	background-color:black;
+	
+	/*margin:25px;*/	
+}
+.middle{
+	width:150px;
+	height:400px;
+	margin:2px;
+	margin-bottom:-200px;
+	transform:translateY(-40px);
+	background: linear-gradient(to bottom, black 50%, white 50%);
+}
+
+.left{
+	width:300px;
+	height:400px;
+	margin:60px;
+	
+}
+ .menu{
+	 text-indent:-990px;
+	 color:white;
+	 font-size:50px;
+	 text-align:right;
+	 
+ }
+ .dual{
+	background:linear-gradient(to bottom,white 50%, black 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+ }
+ .black{
+	 color:black;
+	 font-size:40px;
+ }
+ .appetizers{
+	 text-indent:-1px;
+	 color:white;
+	 font-size:50px;
+	 text-align:left;
+	 
+ }
+ .list{
+	 margin-top:-20px;
+	 text-indent:-1px;
+	 color:white;
+	 font-size:20px;
+	 text-align:left;
+	 line-height:0.25;
+	 margin-left:10px;
+ }
+ .list1{
+	 margin-top:-20px;
+	 text-indent:-1px;
+	 color:white;
+	 font-size:20px;
+	 text-align:right; 
+	 margin-right:10px;
+	 line-height:0.25;
+	 
+ }
+ .ending{
+	 background-color:burlywood/*#581845  #56ae57*/;
+	 width:1280px;;
+	 height:300px;
+	 display:flex;
+	 position:relative;
+	 border: 2px solid white;
+	 
+ }
+ .descp{
+	 width:500px;
+	 height:300px;
+	 /*border: 2px solid yellow;*/
+	 position:absolute;
+	 bottom:0;
+	 left:0px;
+	 font-family:"Playwrite AU SA";
+	 font-size:10px;
+ }
+.chains {
+	height: 300px;
+	/*border: 2px solid black;*/
+	margin: 3px;
+	position: absolute;
+	width:350px;
+	bottom: 0;
+	right: 420px;
+	/* Adjusted to avoid overlap */ } 
+	.chain { 
+	height: 300px; 
+	/*border: 2px solid green;*/
+	margin: 3px;
+	position: absolute;
+	width: 350px;
+	bottom: 0;
+	right: 70px; /* Adjusted to avoid overlap*/
+	}
+	
+	.oneofakindtitle{
+		line-height:1;
+		padding-left:90px;
+		font-size:20px;
+		color:#DAF7A6;
+		
+	}
+	.resturantchains{
+		padding-left:100px;
+		line-height:2;
+		color:#581845;
+		font-family:"Playwrite AU SA";
+	 font-size:10px;
+	}
+.oneofakind{
+		color:#581845/*#581845*/;
+		padding-top:40px;
+		top:70px;
+		padding-left:20px;
+	}
+	.linebreak{
+		line-height:3;
+	}
+	.oneofakind1{
+		color:#581845/*#581845*/;
+		padding-top:10px;
+		top:70px;
+		padding-left:20px;
+	}
+ .highlight{
+	 background-color:#FDDA0D;
+ }
+ .donate{
+	 color:#F5F5DC;
+ }
+ .donate:visited{
+	 color:#FFFF8F;
+ }
+ 
+ .sponsors{
+		line-height:2;
+		padding-left:110px;
+		font-size:20px;
+		color:#DAF7A6;
+ }
+ .chain .gallery{
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:start;
+	 align-items:center;
+	 background-size:cover;
+	 margin-left:2px;
+	 border-radius:3px;
+ }
+ .chain .gallery img{
+	 margin:2px;
+	 background-position:center;
+	 height:50px;
+	 width:100px;
+	 border-radius:3px;
+ }
+ .chain .gallery:only-child{
+	 justify-content:center;
+ }
+.oneofakind2{
+	color:#581845/*#581845*/;
+		/*padding-top:40px;*/
+		bottom:-5px;
+		left:10px;
+		position:absolute;
+		font-size:10px;
+}	 
